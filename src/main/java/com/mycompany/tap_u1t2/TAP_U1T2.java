@@ -4,7 +4,7 @@
  */
 package com.mycompany.tap_u1t2;
 
-
+import com.mycompany.tap_u1t2.Views.Spotify;
 import java.io.IOException;
 import javax.sound.sampled.*;
 
@@ -14,6 +14,8 @@ import javax.sound.sampled.*;
  */
 public class TAP_U1T2 {
     public static void main(String[] args) throws UnsupportedAudioFileException, IOException, LineUnavailableException {
-        new Spotify().setVisible(true);
+        Spotify spotify = new Spotify();
+        spotify.setLocationRelativeTo(null);
+        spotify.setVisible(true);
     }
 }

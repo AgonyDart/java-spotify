@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.tap_u1t2;
+package com.mycompany.tap_u1t2.Models;
 
 import java.io.File;
 import java.io.IOException;
@@ -17,33 +17,34 @@ import javax.sound.sampled.UnsupportedAudioFileException;
  * @author angel
  */
 public class Song {
-    
+
     private String pathname = "";
     private String title = "";
     private String artist = "";
-    private String imagePath = "";
-//    private long duration = 0;
+    // private String imagePath = "";
+    // private long duration = 0;
     private File wav;
-    private File png = new File(imagePath);
+    // private File png = new File(imagePath);
     private Clip clip;
 
-    public Song(String title, String artist, String pathname) throws UnsupportedAudioFileException, IOException, LineUnavailableException {
+    public Song(String title, String artist, String pathname)
+            throws UnsupportedAudioFileException, IOException, LineUnavailableException {
         this.title = title;
         this.artist = artist;
         this.pathname = pathname;
         this.wav = new File(pathname);
         this.clip = fileToClip(this.wav);
-//        this.duration = this.clip.getMicrosecondLength();
+        // this.duration = this.clip.getMicrosecondLength();
     }
 
-    public static Clip fileToClip(File songToPlay) throws UnsupportedAudioFileException, IOException, LineUnavailableException {
+    public static Clip fileToClip(File songToPlay)
+            throws UnsupportedAudioFileException, IOException, LineUnavailableException {
         AudioInputStream audioStream = AudioSystem.getAudioInputStream(songToPlay);
         Clip clip = AudioSystem.getClip();
         clip.open(audioStream);
         return clip;
     }
-    
-    
+
     public String getPathname() {
         return pathname;
     }
@@ -67,23 +68,23 @@ public class Song {
     public void setArtist(String artist) {
         this.artist = artist;
     }
-    
-    public String getImagePath() {
-        return imagePath;
-    }
 
-    public void setImagePath(String imagePath) {
-        this.imagePath = imagePath;
-    }
+    // public String getImagePath() {
+    // return imagePath;
+    // }
+    //
+    // public void setImagePath(String imagePath) {
+    // this.imagePath = imagePath;
+    // }
 
-//    public long getDuration() {
-//        return duration;
-//    }
-//
-//    public void setDuration(int duration) {
-//        this.duration = duration;
-//    }
-    
+    // public long getDuration() {
+    // return duration;
+    // }
+    //
+    // public void setDuration(int duration) {
+    // this.duration = duration;
+    // }
+
     public File getWav() {
         return wav;
     }
@@ -92,13 +93,13 @@ public class Song {
         this.wav = wav;
     }
 
-    public File getPng() {
-        return png;
-    }
-
-    public void setPng(File png) {
-        this.png = png;
-    }
+    // public File getPng() {
+    // return png;
+    // }
+    //
+    // public void setPng(File png) {
+    // this.png = png;
+    // }
 
     public Clip getClip() {
         return clip;

@@ -1,5 +1,7 @@
-C:\Users\angel\Documents\NetBeansProjects\TAP_U1T2\src\main\java\com\mycompany\tap_u1t2\TAP_U1T2.java
-C:\Users\angel\Documents\NetBeansProjects\TAP_U1T2\src\main\java\com\mycompany\tap_u1t2\MusicPlayer.java
-C:\Users\angel\Documents\NetBeansProjects\TAP_U1T2\src\main\java\com\mycompany\tap_u1t2\BrowserSongTester.java
-C:\Users\angel\Documents\NetBeansProjects\TAP_U1T2\src\main\java\com\mycompany\tap_u1t2\Song.java
-C:\Users\angel\Documents\NetBeansProjects\TAP_U1T2\src\main\java\com\mycompany\tap_u1t2\Spotify.java
+/Users/angeld/MyCode/TAP/java-spotify/src/main/java/com/mycompany/tap_u1t2/BrowserSongTester.java
+/Users/angeld/MyCode/TAP/java-spotify/src/main/java/com/mycompany/tap_u1t2/Controllers/PlaylistManager.java
+/Users/angeld/MyCode/TAP/java-spotify/src/main/java/com/mycompany/tap_u1t2/Controllers/SongManager.java
+/Users/angeld/MyCode/TAP/java-spotify/src/main/java/com/mycompany/tap_u1t2/Models/Playlist.java
+/Users/angeld/MyCode/TAP/java-spotify/src/main/java/com/mycompany/tap_u1t2/Models/Song.java
+/Users/angeld/MyCode/TAP/java-spotify/src/main/java/com/mycompany/tap_u1t2/TAP_U1T2.java
+/Users/angeld/MyCode/TAP/java-spotify/src/main/java/com/mycompany/tap_u1t2/Views/Spotify.java
