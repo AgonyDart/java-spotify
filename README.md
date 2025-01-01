@@ -1,6 +1,8 @@
 
 ## **Project Title:** Music Player - Desktop Application in Java
 
+[See it](https://youtu.be/7DtxCNebWHA)
+
 ### **Description:**
 
 A feature-rich desktop application built using Java that enables users to play, pause, and manage their favorite music tracks. The application supports WAV audio format and provides a user-friendly interface for seamless navigation. Key features include a playlist manage. Designed with a focus on performance and usability, the project leverages Java Swing for GUI design and JavaFX for enhanced media handling.
